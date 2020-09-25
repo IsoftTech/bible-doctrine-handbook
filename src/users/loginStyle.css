@@ -2,8 +2,10 @@ body {
     color: #000;
     overflow-x: hidden;
     height: 100%;
-    background-color: #B0BEC5;
     background-repeat: no-repeat
+}
+h6{
+    color: green;
 }
 
 .card0 {
@@ -23,8 +25,9 @@ body {
 }
 
 .image {
-    width: 360px;
-    height: 280px
+    width: 100%;
+    height: 450px;
+    border-radius: 150px;
 }
 
 .border-line {
@@ -32,37 +35,26 @@ body {
 }
 
 .facebook {
-    background-color: #3b5998;
-    color: #fff;
+    background-color: white;
+    color: red;
     font-size: 18px;
     padding-top: 5px;
     border-radius: 50%;
     width: 35px;
     height: 35px;
     cursor: pointer
+}
+.facebook:hover{
+        transform: rotate(360deg);
+        transition: all 0.2s
+    
+}
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 300px;
+    border-color: #2ecc71
 }
 
-.twitter {
-    background-color: #1DA1F2;
-    color: #fff;
-    font-size: 18px;
-    padding-top: 5px;
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    cursor: pointer
-}
-
-.linkedin {
-    background-color: #2867B2;
-    color: #fff;
-    font-size: 18px;
-    padding-top: 5px;
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    cursor: pointer
-}
 
 .line {
     height: 1px;
@@ -73,7 +65,8 @@ body {
 
 .or {
     width: 10%;
-    font-weight: bold
+    font-weight: bold;
+    color: green;
 }
 
 .text-sm {
@@ -93,7 +86,7 @@ body {
 
 ::-ms-input-placeholder {
     color: #BDBDBD;
-    font-weight: 300
+    font-weight: 300;
 }
 
 input,
@@ -115,7 +108,7 @@ textarea:focus {
     -moz-box-shadow: none !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
-    border: 1px solid #304FFE;
+    border: 1px solid green;
     outline-width: 0
 }
 
@@ -127,25 +120,22 @@ button:focus {
 }
 
 a {
-    color: inherit;
+    color: green;
     cursor: pointer
 }
 
-.btn-blue {
-    background-color: #1A237E;
+.btn-white {
+    background-color: white;
     width: 150px;
-    color: #fff;
-    border-radius: 2px
+    color: black;
+    border-radius: 50px;
+    border: solid green 2px;
 }
 
-.btn-blue:hover {
-    background-color: #000;
+.btn-white:hover {
+    background-color: green;
+    color: white;
     cursor: pointer
-}
-
-.bg-blue {
-    color: #fff;
-    background-color: #1A237E
 }
 
 @media screen and (max-width: 991px) {

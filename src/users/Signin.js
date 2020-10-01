@@ -5,7 +5,6 @@ import Bible from "./Login.jpg";
 import Logo from "./bdh.png";
 
 
-
 function Signin() {
     return (
         <div>
@@ -14,7 +13,10 @@ function Signin() {
     <div className="row d-flex">
       <div className="col-lg-6">
         <div className="card1 pb-5">
+
           <div className="row"> <img src= {Logo} className= "logo" /> </div>
+          <div className="row"> <img src="https://i.imgur.com/CXQmsmF.png" className="logo" /> </div>
+
           <div className="row px-3 justify-content-center mt-4 mb-5 border-line"> <img src={Bible} className="image" /> </div>
         </div>
       </div>
@@ -22,7 +24,10 @@ function Signin() {
         <div className="card2 card border-0 px-4 py-5">
           <div className="row mb-4 px-3">
             <h6 className="mb-0 mr-4 mt-2">Sign in with</h6>
+
             <div className="google text-center mr-3">
+
+            <div className="facebook text-center mr-3">
               <div className="fab fa-google-plus" />
             </div>
           </div>
@@ -44,7 +49,11 @@ function Signin() {
           <div className="row px-3 mb-4">
             <div className="custom-control custom-checkbox custom-control-inline"> <input id="chk1" type="checkbox" name="chk" className="custom-control-input" /> <label htmlFor="chk1" className="custom-control-label text-sm">Remember me</label> </div> <a href="#" className="ml-auto mb-0 text-sm">Forgot Password?</a>
           </div>
+
           <div className="row mb-3 px-3"> <Link to="/admin"> <button type="submit" className="bt btn-outline text-center">Login</button> </Link></div>
+
+          <div className="row mb-3 px-3"> <Link to="/admin"> <button type="submit" className="btn-white text-center">Login</button> </Link></div>
+
           <div className="row mb-4 px-3"> <small className="font-weight-bold">Don't have an account? <Link to="/signup" className="text-green ">Register</Link></small> </div>
         </div>
       </div>

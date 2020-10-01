@@ -2,7 +2,6 @@ body {
     color: #000;
     overflow-x: hidden;
     height: 100%;
-    background-color: #B0BEC5;
     background-repeat: no-repeat
 }
 h6{
@@ -28,15 +27,20 @@ h6{
 
 
 .image {
-    width: 360px;
-    height: 280px
+    width: 100%;
+    height: 450px;
+    border-radius: 150px;
 }
 
 .border-line {
     border-right: 1px solid #EEEEEE
 }
 
+
 .google {
+
+.facebook {
+
     background-color: white;
     color: red;
     font-size: 18px;
@@ -44,9 +48,23 @@ h6{
     border-radius: 50%;
     width: 35px;
     height: 35px;
+
     cursor: pointer;
     transition: all 0.8s;
+
+    cursor: pointer
 }
+.facebook:hover{
+        transform: rotate(360deg);
+        transition: all 0.2s
+    
+}
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 300px;
+    border-color: #2ecc71
+}
+
 
 .line {
     height: 1px;
@@ -58,7 +76,8 @@ h6{
 .or {
     color: green;
     width: 10%;
-    font-weight: bold
+    font-weight: bold;
+    color: green;
 }
 
 .text-sm {
@@ -81,7 +100,7 @@ h6{
 
 ::-ms-input-placeholder {
     color: #BDBDBD;
-    font-weight: 300
+    font-weight: 300;
 }
 
 input,
@@ -115,6 +134,7 @@ button:focus {
 }
 
 a {
+
     color: inherit;
     cursor: pointer;
 }
@@ -127,11 +147,24 @@ a {
 .btn-outline{
     border-radius: 100px;
     border-color: green;
+
+    color: green;
+    cursor: pointer
 }
 
-.bg-blue {
-    color: #fff;
-    background-color: #1A237E
+.btn-white {
+    background-color: white;
+    width: 150px;
+    color: black;
+    border-radius: 50px;
+    border: solid green 2px;
+}
+
+.btn-white:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer
+
 }
 
 @media screen and (max-width: 991px) {

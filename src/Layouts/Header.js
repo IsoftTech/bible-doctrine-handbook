@@ -4,10 +4,13 @@ import { Link } from 'react-router-dom'
 function Header() {
     return (
         <div>
-            <nav className="main-header navbar navbar-expand navbar-dark navbar-primary">
+            <nav className="main-header navbar navbar-expand navbar-dark navbar-success">
     <ul className="navbar-nav">
       <li className="nav-item">
         <a id="nbar" className="nav-link" data-widget="pushmenu" href="#"><i className="fas fa-bars" /></a>
+      </li>
+      <li className="nav-item">
+        <a href="#" className="nav-link"> <i className="fa fa-home" />Home</a>
       </li>
     </ul>
     {/* Right navbar links */}

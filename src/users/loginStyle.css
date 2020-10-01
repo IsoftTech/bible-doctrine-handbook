@@ -21,8 +21,10 @@ h6{
     width: 200px;
     height: 100px;
     margin-top: 20px;
-    margin-left: 35px
+    margin-left: 35px;
+    border-radius: 120px;
 }
+
 
 .image {
     width: 100%;
@@ -34,7 +36,11 @@ h6{
     border-right: 1px solid #EEEEEE
 }
 
+
+.google {
+
 .facebook {
+
     background-color: white;
     color: red;
     font-size: 18px;
@@ -42,6 +48,10 @@ h6{
     border-radius: 50%;
     width: 35px;
     height: 35px;
+
+    cursor: pointer;
+    transition: all 0.8s;
+
     cursor: pointer
 }
 .facebook:hover{
@@ -64,6 +74,7 @@ h6{
 }
 
 .or {
+    color: green;
     width: 10%;
     font-weight: bold;
     color: green;
@@ -71,6 +82,9 @@ h6{
 
 .text-sm {
     font-size: 14px !important
+}
+.text-sm:hover{
+    color: green;
 }
 
 ::placeholder {
@@ -120,6 +134,20 @@ button:focus {
 }
 
 a {
+
+    color: inherit;
+    cursor: pointer;
+}
+
+.btn-outline:hover{
+    background-color: green;
+    cursor: pointer;
+    color: white;
+}
+.btn-outline{
+    border-radius: 100px;
+    border-color: green;
+
     color: green;
     cursor: pointer
 }
@@ -136,6 +164,7 @@ a {
     background-color: green;
     color: white;
     cursor: pointer
+
 }
 
 @media screen and (max-width: 991px) {
